@@ -1,8 +1,8 @@
 # To Install
 
-# git clone https://github.com/Conbrown100/find-dead-links
+git clone https://github.com/Conbrown100/find-dead-links
 
-# make install INSTALL_DIR=~/bin
+make install INSTALL_DIR=~/bin
 
 # Input
 
