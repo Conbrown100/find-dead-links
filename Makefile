@@ -1,7 +1,4 @@
 
-
-
-
 SHELL=/bin/bash
 SCRIPT_TARGET = ${INSTALL_DIR}/find-dead-links
 PYSCRIPT_TARGET = ${INSTALL_DIR}/find-dead-links.py
@@ -18,5 +15,6 @@ ${PYSCRIPT_TARGET}:
 	chmod 700 $@
 
 ${ADD_ONS}:
+	cd ${INSTALL_DIR}
 	pip install requests
 	pip install beatifulsoup4
