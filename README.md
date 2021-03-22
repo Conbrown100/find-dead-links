@@ -5,3 +5,8 @@ find-dead-links is a web crawler that takes a user input and checks all links on
 # git clone https://github.com/Conbrown100/find-dead-links
 
 # make install INSTALL_DIR=~/bin
+
+# Input
+
+find-dead-links <link_depth> <url>
+
