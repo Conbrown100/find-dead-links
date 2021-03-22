@@ -13,4 +13,4 @@ ${PYSCRIPT_TARGET}:
 	cp find-dead-links.py ${INSTALL_DIR}
 	chmod 700 $@
 	pip install requests
-	pip install beatifulsoup4	
+	pip install BeautifulSoup4	
